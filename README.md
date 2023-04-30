@@ -14,7 +14,7 @@ To view the HTML code adjusted you can refer to the html file and to view the CS
 To view the actual webpage please refer to the following url link.
 To compare to original webpage you can refer to the following image. 
 
-![alt text](assets/01-html-css-git-homework-demo.png)
+![alt text](Assets/01-html-css-git-homework-demo.png)
 
 # Credits
 
