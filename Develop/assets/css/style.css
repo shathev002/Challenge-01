@@ -20,7 +20,7 @@ header {
    }
 
 header h1 {
-    /* Sets the font size of h1 and places it inline with navigation links*/
+    /* Sets the font size of the title and places it inline with navigation links*/
     display: inline-block;
     font-size: 48px;
 }
@@ -32,7 +32,7 @@ header h1 .seo {
 
 
 header nav {
-    /* Sets the font style and color of the navigation links and places them to the right of the page*/
+    /* Sets the font size, style and color of the navigation links and places them to the right of the page*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,13 +46,13 @@ header nav ul {
 }
 
 header nav ul li {
-    /* Places navigation links inline with the header and 25 px from the left of the margin*/
+    /* Places navigation links inline with the header title and 25 pixels from the left of the margin*/
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
-    /* Removes the underline of the navigation links sets the color of them*/
+    /* Removes the underline of the navigation links and sets the font color of them */
     color: #ffffff;
     text-decoration: none;
 }
@@ -75,7 +75,7 @@ p {
 
 .search-engine-optimization {
     /* Sets the font style and color of this section, sets the background color of this section, 
-    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the section*/
+    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the margin of this section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -86,7 +86,7 @@ p {
 
 .online-reputation-management {
     /* Sets the font style and color of this section, sets the background color of this section, 
-    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the section*/
+    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the margin of this section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -96,8 +96,8 @@ p {
 }
 
 .social-media-marketing {
-    /* Sets the font style and color of this section, sets the background color of this section, 
-    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the section*/
+     /* Sets the font style and color of this section, sets the background color of this section, 
+    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the margin of this section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -139,19 +139,20 @@ p {
     font-size: 36px;
 }
 .float-left {
-    /* Sets the image of this section to the left*/
+    /* Sets the image of this section to the left and sets the right margin to 25 pixels*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
-    /* Sets the image of this section to the right*/
+    /* Sets the image of this section to the right and sets the left margin to 25 pixels*/
     float: right;
     margin-left: 25px;
 }
 
 .content {
-    /* Sets the content of each section next to each other, sets the width in percent of the page, sets it 20 pixels from the left*/
+    /* Sets the content of each section next to each other, sets the width in percent of the page, 
+    and sets it 20 pixels from the left of the margin*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -159,8 +160,8 @@ p {
 
 .benefits {
     /* Sets the sidebar to the right, sets the font style and background color of the sidebar, 
-    sets the padding and dimensions, sets the sidebar next to right and left floating elements, 
-    sets the sidebar 20 pixels from the right of the margin */
+    sets the padding and dimensions, sets the sidebar next to the right and left floating elements, 
+    and sets the sidebar 20 pixels from the right of the margin */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -172,64 +173,67 @@ p {
 }
 
 .benefit-lead {
-    /* Sets the text color of the section and places it 32 pixels from the bottom of the section */
+    /* Sets the text color of the section and places it 32 pixels from the bottom of the margin of this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
-    /* Sets the text color of the section and places it 32 pixels from the bottom of the section */
+    /* Sets the text color of the section and places it 32 pixels from the bottom of the margin of this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
-    /* Sets the text color of the section and places it 32 pixels from the bottom of the section */
+    /* Sets the text color of the section and places it 32 pixels from the bottom of the margin of this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
-    /* Places the header of this section in the center and places it 10 pixels from the bottom of the section */
+    /* Places the header of this section in the center and sets the bottom margin to 10 pixels */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
-    /* Places the header of this section in the center and places it 10 pixels from the bottom of the section */
+    /* Places the header of this section in the center and sets the bottom margin to 10 pixels */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
-    /* Places the header of this section in the center and places it 10 pixels from the bottom of the section */
+    /* Places the header of this section in the center and sets the bottom margin to 10 pixels */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
-    /* Places image of this section on top of text and left and right margins calculated based on the section*/
+    /* Places the image of this section on top of the text, sets the maximum width of the image, 
+    and left and right margins are calculated based on the section*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
-     /* Places image of this section on top of text and left and right margins calculated based on the section*/
+    /* Places the image of this section on top of the text, sets the maximum width of the image, 
+    and left and right margins are calculated based on the section*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
-    /* Places image of this section on top of text and left and right margins calculated based on the section*/
+    /* Places the image of this section on top of the text, sets the maximum width of the image, 
+    and left and right margins are calculated based on the section*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 footer {
-    /* Sets the padding and font style of the footer, sets the footer in the center, sets the 
+    /* Sets the padding and font style of the footer, sets the footer in the center, and sets the 
      footer under the right and left floating elements, */
     padding: 30px;
     clear: both;
