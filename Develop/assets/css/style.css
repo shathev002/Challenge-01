@@ -73,7 +73,7 @@ p {
     background-position: center;
 }
 
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     /* Sets the font style and color of this section, sets the background color of this section, 
     sets the height and padding of this section, and sets this section 20 pixels from the bottom of the margin of this section*/
     margin-bottom: 20px;
@@ -84,60 +84,17 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    /* Sets the font style and color of this section, sets the background color of this section, 
-    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the margin of this section*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-     /* Sets the font style and color of this section, sets the background color of this section, 
-    sets the height and padding of this section, and sets this section 20 pixels from the bottom of the margin of this section*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     /* Sets the maximum height of this image of the section to 200 pixels*/
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    /* Sets the maximum height of this image of the section to 200 pixels*/
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    /* Sets the maximum height of this image of the section to 200 pixels*/
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     /* Sets the bottom margin and font size of this header of the section*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-     /* Sets the bottom margin and font size of this header of the section*/
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-     /* Sets the bottom margin and font size of this header of the section*/
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 .float-left {
     /* Sets the image of this section to the left and sets the right margin to 25 pixels*/
     float: left;
@@ -172,59 +129,19 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     /* Sets the text color of the section and places it 32 pixels from the bottom of the margin of this section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    /* Sets the text color of the section and places it 32 pixels from the bottom of the margin of this section */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    /* Sets the text color of the section and places it 32 pixels from the bottom of the margin of this section */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     /* Places the header of this section in the center and sets the bottom margin to 10 pixels */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    /* Places the header of this section in the center and sets the bottom margin to 10 pixels */
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    /* Places the header of this section in the center and sets the bottom margin to 10 pixels */
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    /* Places the image of this section on top of the text, sets the maximum width of the image, 
-    and left and right margins are calculated based on the section*/
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    /* Places the image of this section on top of the text, sets the maximum width of the image, 
-    and left and right margins are calculated based on the section*/
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     /* Places the image of this section on top of the text, sets the maximum width of the image, 
     and left and right margins are calculated based on the section*/
     display: block;
