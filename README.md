@@ -19,6 +19,8 @@ you can refer to the css file under the assets folder.
 
 To view the actual webpage please refer to the following url link.
 
+https://shathev002.github.io/Challenge-01/
+
 To compare to the original webpage you can refer to the following image. 
 
 ![alt text](Assets/01-html-css-git-homework-demo.png)
